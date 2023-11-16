@@ -12,3 +12,4 @@ with open('cambio2.txt', 'r') as archivo:
 with open('cambiob.txt', 'r') as archivo:
     contenidob = archivo.read()
     print(contenidob)
+    ##listo release
