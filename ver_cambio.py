@@ -8,4 +8,7 @@ with open('cambio2.txt', 'r') as archivo:
 
     df = pd.read_csv('cambio2.txt', delimiter='\t')
     print(df+contenido+"feature3")
-    print("new software")
+
+with open('cambiob.txt', 'r') as archivo:
+    contenidob = archivo.read()
+    print(contenidob)
